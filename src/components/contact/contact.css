@@ -1,0 +1,47 @@
+.contact {
+    margin-bottom: 6rem;
+}
+
+.contact__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 110%;
+    gap: 1rem;
+}
+
+.contact__button a {
+    cursor: pointer;
+    border-radius: 1rem;
+    width: 300px;
+    padding: 0.8rem;
+    justify-content: center;
+
+    background-color: var(--container-color);
+    color: #000;
+    border: 1px solid #000;
+}
+
+.contact__button a:hover {
+    background-color: #000;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.contact__icon {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.uil-telegram {
+    color: #0088cc;
+}
+
+.uil-instagram {
+    color: #e1306c;
+}
